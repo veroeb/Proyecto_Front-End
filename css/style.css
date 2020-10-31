@@ -7,7 +7,7 @@ body {
 }
 
 .header{
-  background-image: url("/Proyecto_FrontEnd_Echezarreta/img/food.jpeg");
+  background-image: url("/img/food.jpeg");
   position: relative;
   width: 100%;
   /* min-width: 450px; */
