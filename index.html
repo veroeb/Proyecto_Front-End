@@ -10,7 +10,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap" rel="stylesheet">
 </head>
@@ -36,12 +36,12 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
+				<ul class="navbar-nav mx-auto">
 					<li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
 					<li class="nav-item"><a href="#recipes" class="nav-link">Recetas</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Sobre Nosotros</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-					<!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+					<li class="nav-item"><a href="#search_bar" class="nav-link"><i class="fa fa-search icon-nav"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -165,6 +165,7 @@
 
 	<!--Mas recetas-->
 	
+	<a id="search_bar"></a>
 	<div class="container">
 		<div class="row py-0 py-md-3 py-lg-5">
 			<div class="col-12 text-center text-uppercase mt-5">
@@ -175,6 +176,26 @@
 			</div>
 		</div>
 	</div>
+	
+	<div class="container mb-4">
+		<div class="row py-0 ">
+			<div class="col-12 mt-3">
+				<!-- <h1 class="text-dark pb-3">
+					Más recetas deliciosas
+				</h1> -->
+				
+				<form class="form-inline">
+					<div class="input-icons mx-auto w-75">
+						<i class="fas fa-search icon"></i>
+						<input id="search-input" class="form-control search-input w-100" type="search" placeholder="Busca una receta..." aria-label="Search">						
+						<div class="border-top border-dark "></div>
+					</div>
+					<!-- <button class="btn btn-outline-success ml-0" type="submit">Buscar</button> -->
+				</form>
+			</div>
+		</div>
+	</div>
+	
 
 	<div class="container pb-4 ">
 		<div class="row pt-3 pb-5 text-center">

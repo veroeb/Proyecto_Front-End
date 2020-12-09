@@ -7,11 +7,13 @@ body {
 }
 
 .header{
-  background-image: url("/img/food.jpeg");
+	-webkit-background-image: url("food.jpeg");
+  background-image: url("food.jpeg");
   position: relative;
   width: 100%;
   /* min-width: 450px; */
 }
+
 
 .blurred-cover{
   width: 100%;
@@ -132,7 +134,7 @@ body {
   padding-top: 35px;
 }
 
-.w-100{   /*es la imagen de las recetas*/
+img.w-100{   /*es la imagen de las recetas*/
   /* box-shadow: .2rem .2rem .2rem rgba(0, 0, 0, .1); */
   box-shadow: 0 10px 20px 0px rgba(17,101,194, 0.3);
 }
@@ -155,7 +157,44 @@ body {
   width: 100%;
 }
 
+/* .form-control{
+  height: 4rem;
+  outline: 0 none;
+}
 
+input{
+  outline: none;
+} */
+
+
+.search-input,
+.search-input:focus {
+	border: none;
+	/* border-bottom: 1px solid #000; */
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  background-color: transparent;
+  font-size: large;
+  padding: 10px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  /* -webkit-appearance: none; */
+  cursor: pointer;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+input.w-100{
+  width: 95% !important;
+}
+
+.icon{
+  margin-left: 10px;
+}
 
 /*=== FOOTER ===*/
 
